@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles related to running unit tests. The original Dockerfile fails because it doesn't explicitly specify the location of test files to discover.  The solution demonstrates how to properly specify test discovery using the unittest module's discover feature.
